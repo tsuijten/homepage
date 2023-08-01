@@ -88,9 +88,12 @@ $font-size-base: 1.1rem;
 }
 
 .intro {
-  background: transparent url("../images/thijs-suijten-on-stage-tedx.jpg") no-repeat center center;
+  background: transparent url("/../images/thijs-suijten-on-stage-tedx.jpg") no-repeat center center;
   background-size: cover;
-  height: 60vh;
+
+  .row {
+    height: 60vh;
+  }
 
   h1, h2 {
     color: #fff;
@@ -101,7 +104,7 @@ $font-size-base: 1.1rem;
 }
 
 @include media-breakpoint-down(md) {
-  .intro {
+  .intro .row {
     height: 40vh;
   }
 }

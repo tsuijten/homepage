@@ -109,6 +109,15 @@ $font-size-base: 1.1rem;
   }
 }
 
+.tedx-play {
+  opacity: 0.8;
+  transition: opacity 300ms;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
 .tedx {
   font-weight: bold;
   color: #eb0028;
